@@ -61,6 +61,7 @@ app.delete(TODO_BASE_ROUTE,todoController.delete)
     //todo: call.rows
  // })
 //})
+alert('Hello')
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
