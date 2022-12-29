@@ -1,7 +1,7 @@
 const express = require('express') 
 const bodyParser = require('body-parser')
 const app = express()
-const port = 6000
+const port = 3000
 const TodoController = require('./controllers/todoController')
 const TODO_BASE_ROUTE = '/todo';
 const todoController = new TodoController()
