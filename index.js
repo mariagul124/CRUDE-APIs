@@ -8,7 +8,7 @@ const todoController = new TodoController()
 
 
 app.use(bodyParser.json())
-app.get('/', (req, res) => {
+app.get('/', (req, response) => {
   response.json({ info: 'Node.js, Express, and Postgres API' })
 })
 
